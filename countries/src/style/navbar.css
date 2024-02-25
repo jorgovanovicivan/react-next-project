@@ -1,0 +1,29 @@
+/* Navbar style */
+nav {
+    background-color: #333; /* Background color */
+    padding: 10px 0; /* Padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline; /* Inline display for list items */
+    margin-right: 20px; /* Margin between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
